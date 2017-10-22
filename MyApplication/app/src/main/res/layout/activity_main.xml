@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.myapplication.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:srcCompat="@mipmap/ic_launcher"-->
+        <!--tools:layout_editor_absoluteX="168dp"-->
+        <!--tools:layout_editor_absoluteY="28dp" />-->
+
+    <!-- <LinearLayout-->
+    <!--     xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--     android:layout_width="match_parent"-->
+    <!--     android:layout_height="match_parent">-->
+    <!--     <ImageView-->
+    <!--         android:layout_width="wrap_content"-->
+    <!--         android:layout_height="wrap_content"-->
+    <!--         android:src="@mipmap/imageView"-->
+    <!--         />-->
+    <!-- </LinearLayout>-->
+
+    <ImageView
+        android:layout_width="353dp"
+        android:layout_height="519dp"
+        android:id="@+id/image_view"
+        android:layout_gravity="center_horizontal"
+        tools:layout_editor_absoluteY="6dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="dispatchTakePictureIntent"
+        android:text="Capture Image"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="422dp"
+        android:layout_marginBottom="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
